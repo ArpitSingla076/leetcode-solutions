@@ -1,0 +1,25 @@
+class Solution {
+    public boolean uniqueOccurrences(int[] arr) {
+        int n = arr.length;
+        HashMap<Integer,Integer> map = new HashMap<>();
+        // count occurance
+        for(int i=0;i<n;i++){
+            if(map.containsKey(arr[i])) {
+                map.put(arr[i],map.get(arr[i])+1);
+            }
+            else{
+                map.put(arr[i],1);
+            }
+        }
+
+       // Store frequencies in a set
+       HashSet<Integer> hs = new HashSet<>();
+       for(Integer num : map.values()) {
+        if(hs.contains(num)) {
+            return false;
+        }
+        hs.add(num);
+       }
+       return true;
+    }
+}
