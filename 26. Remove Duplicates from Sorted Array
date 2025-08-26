@@ -1,0 +1,34 @@
+// +++ first method using LinkedHashset +++
+
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        int n = nums.length;
+        LinkedHashSet<Integer> hs = new LinkedHashSet<>();
+        for(int i=0;i<n;i++) {
+            hs.add(nums[i]);
+        }
+        int idx=0;
+        for(int val : hs) {
+            nums[idx] = val;
+            idx++;
+        }
+        return idx;
+    }
+}
+
+
+// +++ Better Approach using 2 Pointer Approach +++
+
+class Solution {
+    public int removeDuplicates(int[] nums) {
+        int n = nums.length;
+        int i=0;
+        for(int j=1;j<n;j++) {
+            if(nums[j]!=nums[i]) {
+                nums[i+1] = nums[j]; 
+                i++;
+            }
+        }
+        return i+1;
+    }
+}
