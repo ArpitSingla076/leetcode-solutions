@@ -1,0 +1,47 @@
+// +++ This is Brute force Using extra matrix +++
+
+class Solution {
+    public void rotate(int[][] matrix) {
+        int n = matrix.length;
+        int res[][] = new int[n][n];
+
+        for(int i=0;i<n;i++) {
+            for(int j=0;j<n;j++) {
+                res[j][n-1-i]=matrix[i][j];
+            }
+        }
+        // Copy res back into matrix
+        for (int i=0;i<n;i++) {
+            for (int j=0;j<n;j++) {
+                matrix[i][j] = res[i][j];
+            }
+        }
+    }
+}
+
+// +++ Optimised sol using in-place (transponse + reverse) +++
+
+class Solution {
+    public void rotate(int[][] matrix) {
+        int n = matrix.length;
+
+        for(int i=0;i<n;i++) {
+            for(int j=i+1;j<n;j++) {
+                int temp = matrix[i][j];
+                matrix[i][j] = matrix[j][i];
+                matrix[j][i] = temp;
+            }
+        }
+
+        for(int i=0;i<n;i++) {
+            int left = 0 , right = n-1;
+            while(left<=right) {
+                int temp = matrix[i][left];
+                matrix[i][left] = matrix[i][right];
+                matrix[i][right] = temp;
+                left++;
+                right--;
+            }
+        }
+    }
+}
