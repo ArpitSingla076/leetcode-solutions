@@ -1,3 +1,8 @@
+ +++ Two Concept Used +++
+Substring: "substring(0, i+1)" gives the part of the string from the start up to the last odd digit(where start is included and last is excluded).
+ch - '0': "Subtracting '0' from a digit character converts it to its actual integer value."
+
+
 class Solution {
     public String largestOddNumber(String num) {
         int n = num.length();
