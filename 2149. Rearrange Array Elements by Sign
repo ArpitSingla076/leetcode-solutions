@@ -1,0 +1,63 @@
+--- Brute Force ---
+
+class Solution {
+    public int[] rearrangeArray(int[] nums) {
+        int n = nums.length;
+        int[] pos = new int[n/2];
+        int[] neg = new int[n/2];
+        int idx1=0;
+        int idx2=0;
+        for(int i=0;i<n;i++) {
+            if(nums[i]<0) {
+                neg[idx1] = nums[i];
+                idx1++;
+            }
+            else{
+                pos[idx2] = nums[i];
+                idx2++;
+            }
+        }
+
+        int res[] = new int[n];
+        idx1=0;
+        idx2=0;
+        for(int i=0;i<n;i++) {
+            if(i%2==0) {
+                res[i] = pos[idx1];
+                idx1++;
+
+            }
+            else{
+                res[i] = neg[idx2];
+                idx2++;
+            }
+        }
+        return res;
+    }
+}
+
+
+// --- Optimal Approach ---
+
+class Solution {
+    public int[] rearrangeArray(int[] nums) {
+        int n = nums.length;
+        int res[] = new int[n];
+        int posIdx=0;
+        int negIdx=1;
+        for(int i=0;i<n;i++) {
+            if(nums[i]>0) {
+                res[posIdx] = nums[i];
+                posIdx+=2;
+            }
+            else{
+                res[negIdx] = nums[i];
+                negIdx+=2; 
+            }
+        }
+        return res;
+    }
+}
+
+
+
