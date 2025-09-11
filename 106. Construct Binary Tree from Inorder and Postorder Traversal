@@ -1,0 +1,17 @@
+class Solution {
+    public TreeNode helper(int[]inorder,int Il,int Ir,int[]postorder,int pl,int pr) {
+        if(Il>Ir)return null;
+        TreeNode root = new TreeNode(postorder[pr]);
+        int i = Il;
+        while(inorder[i]!=postorder[pr])i++;
+        int leftsize = i-Il;
+        int rightsize = Ir-i;
+        root.left = helper(inorder,Il,i-1,postorder,pl,pl+leftsize-1);
+        root.right = helper(inorder,i+1,Ir,postorder,pl+leftsize,pr-1);
+        return root;
+    }
+    public TreeNode buildTree(int[] inorder, int[] postorder) {
+        int n = inorder.length;
+        return helper(inorder,0,n-1,postorder,0,n-1);
+    }
+}
