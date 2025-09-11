@@ -1,0 +1,16 @@
+class Solution {
+    public TreeNode helper(int[]preorder,int pl,int ph,int[]inorder,int Il,int Ih) {
+        if(pl>ph)return null;
+        TreeNode root = new TreeNode(preorder[pl]);
+        int i = Il;
+        while(inorder[i]!=preorder[pl]) i++;
+        int leftsize = i-Il;
+        root.left = helper(preorder,pl+1,pl+leftsize,inorder,Il,i-1);
+        root.right = helper(preorder,pl+leftsize+1,ph,inorder,i+1,Ih);
+        return root;
+    }
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        int n = preorder.length;
+       return helper(preorder,0,n-1,inorder,0,n-1);
+    }
+}
