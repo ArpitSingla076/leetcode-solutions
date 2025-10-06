@@ -12,3 +12,24 @@ class Solution {
         return sb.toString().trim();
     }
 }
+
+
+------ Without using split ----------
+
+class Solution {
+    public String reverseWords(String s) {
+        s = s.trim();
+        int n = s.length();
+        StringBuilder sb = new StringBuilder();
+        int end = n-1;
+        while(end>=0){
+            int start = end;
+            while(start>=0 &&s.charAt(start)!=' ')start--;
+            sb.append(s.substring(start+1,end+1));
+            sb.append(" ");
+            while(start>=0 && s.charAt(start)==' ') start--;
+            end = start;
+        }
+        return sb.toString().trim();
+    }
+}
