@@ -15,3 +15,21 @@ class Solution {
         return "";
     }
 }
+
+
+
+--- using start and end (two pointer approach) ---
+class Solution {
+    public String largestOddNumber(String num) {
+        int n = num.length();
+        int end = n-1;
+        while(end>=0) {
+            char ch = num.charAt(end);
+            if((ch-'0') %2 !=0) {
+                return num.substring(0,end+1);
+            }
+            end--;
+        }
+        return "";
+    }
+}
