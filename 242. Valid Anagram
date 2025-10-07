@@ -12,3 +12,62 @@ class Solution {
         return Arrays.equals(sArr,tArr);
     }
 }
+
+
+--------- Using HashMap ----------
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        if(s.length()!=t.length()) return false;
+        HashMap<Character,Integer> map = new HashMap<>();
+        HashMap<Character,Integer> map2 = new HashMap<>();
+
+        for(int i=0;i<s.length();i++) {
+            char ch = s.charAt(i);
+            char ch2 = t.charAt(i);
+            if(map.containsKey(ch)) {
+                map.put(ch,map.get(ch)+1);
+            }
+            else{
+                map.put(ch,1);
+            }
+
+            if(map2.containsKey(ch2)) {
+                map2.put(ch2,map2.get(ch2)+1);
+            }
+            else{
+                map2.put(ch2,1);
+            }
+        }
+        for (char c : map.keySet()) {
+            if (!map2.containsKey(c) || !map.get(c).equals(map2.get(c))) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+
+
+
+--- Optimial sol using freq array ---
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        int l1 = s.length();
+        int l2 = t.length();
+
+        if(l1 != l2) return false;
+
+        int[] arr = new int[128];
+        int[] arr1 = new int[128];
+
+        for(int i=0;i<l1; i++){
+            arr[s.charAt(i)]++;
+            arr1[t.charAt(i)]++;
+        }
+
+        for(int i=0;i<arr.length;i++){
+            if(arr[i] != arr1[i]) return false;
+        }
+        return true;
+    }
+}
