@@ -1,3 +1,28 @@
+--- M-1 (check inorder traversal is sorted or not) ---  (Brute force)
+
+class Solution {
+    public void inorder( ArrayList<Integer> result,TreeNode root) {
+        if(root==null)return;
+        inorder(result,root.left);
+        result.add(root.val);
+        inorder(result,root.right);
+    }
+
+    public boolean isValidBST(TreeNode root) {
+        ArrayList<Integer> result = new ArrayList<>();
+        inorder(result,root);
+        for(int i=1;i<result.size();i++) {
+            if(result.get(i)<=result.get(i-1)) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
+
+
+--- M-2 (using concept of Min and Max) --- (Optimal Method)
+
 class Solution {
     public boolean helper(TreeNode root,long minVal,long maxVal) {
         if(root==null)return true;
