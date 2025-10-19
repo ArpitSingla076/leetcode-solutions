@@ -23,6 +23,9 @@ class Solution {
 
 --- M-2 (using concept of Min and Max) --- (Optimal Method)
 
+check if max value in left subtree < node
+and min value in right subtree > node
+
 class Solution {
     public boolean helper(TreeNode root,long minVal,long maxVal) {
         if(root==null)return true;
