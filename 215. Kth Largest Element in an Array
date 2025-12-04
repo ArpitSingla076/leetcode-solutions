@@ -1,0 +1,20 @@
+-- Brute force -- O(log n) --
+sort the array and retunr (n-k)th index element
+
+
+
+--- Optimal Solution Using minheap --  TC : O(log k) ---
+
+class Solution {
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> minheap = new PriorityQueue<>();
+        int n = nums.length;
+        for(int i=0;i<n;i++) {
+            minheap.add(nums[i]);
+            if(minheap.size() > k) {
+                minheap.remove();
+            }
+        }
+        return minheap.peek();
+    }
+}
