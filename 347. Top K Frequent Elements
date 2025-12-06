@@ -1,40 +1,42 @@
-class Pair {
-    int num;
+class Pair{
     int freq;
-
-    Pair(int num, int freq) {
-        this.num = num;
+    int ele;
+    public Pair(int freq,int ele) {
         this.freq = freq;
+        this.ele = ele;
     }
 }
 
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
         int n = nums.length;
-        HashMap<Integer, Integer> map = new HashMap<>();
+        HashMap<Integer,Integer> hm = new HashMap<>();
+        // for(int i=0;i<n;i++) {
+        //     if(hm.containsKey(nums[i])) {
+        //         hm.put(nums[i],hm.get(nums[i])+1);
+        //     }
+        //     else{
+        //         hm.put(nums[i],1);
+        //     }
+        // }
 
-        for (int i = 0; i < n; i++) {
-            if (map.containsKey(nums[i])) {
-                map.put(nums[i], map.get(nums[i]) + 1);
-            } else {
-                map.put(nums[i], 1);
-            }
+        for(int val : nums){
+            hm.put(val,hm.getOrDefault(val,0)+1);
         }
 
-        PriorityQueue<Pair> minheap = new PriorityQueue<>((a, b) -> a.freq - b.freq);
-        for (int key : map.keySet()) {
-            minheap.add(new Pair(key, map.get(key)));
-            if (minheap.size() > k) {
-                minheap.remove();
+        PriorityQueue<Pair>minheap = new PriorityQueue<>((a,b) -> a.freq - b.freq);
+        for(int key : hm.keySet()) {
+            minheap.add(new Pair(hm.get(key),key));
+            if(minheap.size()>k) {
+                minheap.poll();
             }
         }
-
-        int ans[] = new int[k];
-        int idx = 0;
-        while (!minheap.isEmpty()) {
-            ans[idx] = minheap.remove().num;
+        int res[] = new int[k];
+        int idx=0;
+        while(!minheap.isEmpty()) {
+            res[idx] = minheap.poll().ele;
             idx++;
         }
-        return ans;
+        return res;
     }
 }
