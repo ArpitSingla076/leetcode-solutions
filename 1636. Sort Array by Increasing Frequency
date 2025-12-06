@@ -1,0 +1,40 @@
+class Pair {
+    int freq;
+    int ele;
+
+    public Pair(int freq, int ele) {
+        this.freq = freq;
+        this.ele = ele;
+    }
+}
+
+class Solution {
+    public int[] frequencySort(int[] nums) {
+        int n = nums.length;
+        int ans[] = new int[n];
+        HashMap<Integer, Integer> hm = new HashMap<>();
+        for (int val : nums) {
+            hm.put(val, hm.getOrDefault(val, 0) + 1);
+        }
+
+        PriorityQueue<Pair> minheap = new PriorityQueue<>((a, b) -> {
+            if (a.freq != b.freq) return a.freq - b.freq;     
+            return b.ele - a.ele;
+        });
+
+        for (int key : hm.keySet()) {
+            minheap.add(new Pair(hm.get(key), key));
+        }
+
+        int idx=0;    
+        while (!minheap.isEmpty()) {
+            Pair p = minheap.poll();
+            int freq = p.freq;
+            int ele = p.ele;
+            for (int i = 0; i < freq; i++) {
+                ans[idx++] = ele;
+            }
+        }
+        return ans;
+    }
+}
