@@ -1,25 +1,9 @@
 class Solution {
-    // public void dfs(int[][] isConnected,boolean[]vis,int curr) {
-    //     vis[curr] = true;
-    //     for(int i=0;i<isConnected[curr].length;i++) {
-    //         if(isConnected[curr][i]==1 && !vis[i]) {
-    //             dfs(isConnected,vis,i);
-    //         }
-    //     }
-    // }
-
-    public void bfs(int[][] isConnected,boolean vis[],int curr) {
-        int v = isConnected.length;
-        Queue<Integer> q = new LinkedList<>();
-        q.add(curr);
-        vis[curr]= true;
-        while(!q.isEmpty()) {
-            int now = q.remove();
-            for(int i=0;i<isConnected[now].length;i++) {
-                if(!vis[i] && isConnected[i][now]==1) {
-                    q.add(i);
-                    vis[i] = true;
-                }
+    public void dfs(int[][] isConnected,boolean[]vis,int curr) {
+        vis[curr] = true;
+        for(int i=0;i<isConnected[curr].length;i++) {
+            if(isConnected[curr][i]==1 && !vis[i]) {
+                dfs(isConnected,vis,i);
             }
         }
     }
@@ -31,7 +15,7 @@ class Solution {
         for(int i=0;i<n;i++) {
             if(!vis[i]) {
                 count++;
-                bfs(isConnected,vis,i);
+                dfs(isConnected,vis,i);
             }
         }
         return count;
@@ -39,10 +23,7 @@ class Solution {
 }
 
 
-
-
-
---------------------------------------------
+------------------------------------------------------------------------------------------------
 class Solution {
     public void bfs(int[][] isConnected,boolean vis[],int curr) {
         int v = isConnected.length;
