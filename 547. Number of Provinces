@@ -74,3 +74,46 @@ class Solution {
         return count;
     }
 }
+
+
+------------------------------------------------------------------------------------------------------
+(If we convert adjacency Matrix to adjacency List)
+
+class Solution {
+    public void dfs(List<List<Integer>>adjList,boolean vis[], int curr) {
+        vis[curr] = true;
+        for(int i=0;i<adjList.get(curr).size();i++) {
+            int neig = adjList.get(curr).get(i);
+            if(!vis[neig]) {
+                dfs(adjList,vis,neig);
+            }
+        }
+    }
+
+    public int findCircleNum(int[][] isConnected) {
+        int n = isConnected.length;
+        List<List<Integer>> adjList = new ArrayList<>();
+        
+        for(int i=0;i<n;i++) {
+            adjList.add(new ArrayList<>());
+        }
+
+        for(int i=0;i<n;i++) {
+            for(int j=0;j<n;j++) {
+                if(isConnected[i][j]==1) {
+                    adjList.get(i).add(j);
+                }
+            }
+        }
+
+        boolean vis[] = new boolean[n];
+        int count = 0;
+        for(int i=0;i<n;i++) {
+            if(!vis[i]) {
+                count++;
+                dfs(adjList,vis,i);
+            }
+        }
+        return count;
+    }
+}
