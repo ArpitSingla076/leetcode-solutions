@@ -1,0 +1,24 @@
+class Solution {
+    public void dfs(int[][]image,int[][]ans,int sr,int sc,int color,int iniColor) {
+        int m = image.length;
+        int n = image[0].length;
+        ans[sr][sc] = color;
+        int[] drow = {-1,0,1,0};
+        int[] dcol = {0,1,0,-1};
+        for(int i=0;i<4;i++) {
+            int nrow = sr + drow[i];
+            int ncol = sc + dcol[i];
+            if(nrow>=0 && nrow<m && ncol>=0 && ncol<n && 
+            image[nrow][ncol]==iniColor && ans[nrow][ncol]!=color) {
+                dfs(image,ans,nrow,ncol,color,iniColor);
+            }
+        } 
+    }
+
+    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        int iniColor = image[sr][sc];
+        int[][]ans = image;
+        dfs(image,ans,sr,sc,color,iniColor);
+        return ans;
+    }
+}
