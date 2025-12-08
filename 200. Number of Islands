@@ -63,28 +63,52 @@ class Solution {
         }
         return count;
     }
-
-
+}
 
 
 ----------------------- USING DFS -----------------------------------
 
+class Pair {
+    int row;
+    int col;
 
+    public Pair(int row, int col) {
+        this.row = row;
+        this.col = col;
+    }
+}
 
+class Solution {
+    public void dfs(int row, int col, int[][] vis, char[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
 
+        // boundary
+        if(row<0 || col<0 || row>=m || col>=n) return;
 
+        // water OR already visited
+        if(grid[row][col] == '0' || vis[row][col] == 1) return;
 
+        vis[row][col] = 1;
+        dfs(row-1,col,vis,grid); // up
+        dfs(row+1,col,vis,grid); // down
+        dfs(row,col-1,vis,grid); // left
+        dfs(row,col+1,vis,grid); // right  
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
+    public int numIslands(char[][] grid) {
+        int m = grid.length;
+        int n = grid[0].length;
+        int vis[][] = new int[m][n];
+        int count = 0;
+        for (int row=0;row<m;row++) {
+            for (int col=0;col<n;col++) {
+                if (vis[row][col]==0 && grid[row][col]=='1') {
+                    count++;
+                    dfs(row, col, vis, grid);
+                }
+            }
+        }
+        return count;
+    }
 }
