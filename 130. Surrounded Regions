@@ -1,0 +1,59 @@
+class Solution {
+    public void dfs(char[][]board,int[][]vis,int row,int col) {
+        int m = board.length;
+        int n = board[0].length;
+        vis[row][col] = 1;
+        // check for neig(top,right,bottom,left)
+        int drow[] = {-1,0,1,0};
+        int dcol[] = {0,1,0,-1};
+        for(int i=0;i<4;i++) {
+            int nrow = row + drow[i];
+            int ncol = col + dcol[i];
+            if(nrow>=0 && nrow<m && ncol>=0 && ncol<n
+            && vis[nrow][ncol]==0 && board[nrow][ncol]=='O') {
+                dfs(board,vis,nrow,ncol);
+            }
+        }
+    }
+
+    public void solve(char[][] board) {
+        int m = board.length;
+        int n = board[0].length;
+        int[][]vis = new int[m][n];
+
+        // --- now traverse ---
+        // traverse first row and last row
+        for(int j=0;j<n;j++) {
+            // first row
+            if(vis[0][j]==0 && board[0][j]=='O') {
+                dfs(board,vis,0,j);
+            }
+
+            // last row
+            if(vis[m-1][j]==0 && board[m-1][j]=='O') {
+                dfs(board,vis,m-1,j);
+            }
+        }
+
+        // traverse first col and last col
+        for(int i=0;i<m;i++) {
+            // first col
+            if(vis[i][0]==0 && board[i][0]=='O') {
+                dfs(board,vis,i,0);
+            }
+
+            // last col
+            if(vis[i][n-1]==0 && board[i][n-1]=='O') {
+                dfs(board,vis,i,n-1);
+            }
+        }
+
+        for(int i=0;i<m;i++) {
+            for(int j=0;j<n;j++) {
+                if(vis[i][j]==0 && board[i][j]=='O') {
+                    board[i][j] = 'X';
+                }
+            }
+        }
+    }
+}
