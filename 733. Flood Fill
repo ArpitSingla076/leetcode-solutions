@@ -22,3 +22,29 @@ class Solution {
         return ans;
     }
 }
+
+
+-----------------------------------------------------------------------------------------
+
+class Solution {
+    public void dfs(int[][] image,int[][] ans,int sr,int sc,int color, int inicolor) {
+        int m = image.length;
+        int n = image[0].length;
+
+        if(sr<0 || sc<0 || sr>=m || sc>=n) return;
+        if(image[sr][sc]!=inicolor || ans[sr][sc]==color)return;
+
+        ans[sr][sc] = color;
+        dfs(image,ans,sr-1,sc,color,inicolor);
+        dfs(image,ans,sr,sc+1,color,inicolor);
+        dfs(image,ans,sr+1,sc,color,inicolor);
+        dfs(image,ans,sr,sc-1,color,inicolor);
+    }
+
+    public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        int inicolor = image[sr][sc];
+        int[][] ans = image;
+        dfs(image,ans,sr,sc,color,inicolor);
+        return ans;
+    }
+}
