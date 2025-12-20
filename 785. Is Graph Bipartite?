@@ -30,3 +30,46 @@ class Solution {
         return true;
     }
 }
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+class Solution {
+    public boolean isBipartite(int[][] graph) {
+        int color[] = new int[graph.length];
+        Queue<Integer> q = new LinkedList<>();
+        for (int i = 0; i < graph.length; i++) {
+            color[i] = -1;
+        }
+
+        for (int start = 0; start < graph.length; start++) {
+            if (color[start] == -1) {
+                q.add(start);
+                color[start] = 0;
+
+                while (!q.isEmpty()) {
+                    int ele = q.peek();
+                    q.poll();
+                    for (int i=0;i<graph[ele].length;i++) {
+                        int neig = graph[ele][i];
+                        if (color[neig] == -1) {
+                            int parCol = color[ele];
+                            color[neig] = parCol == 0 ? 1 : 0;
+                            q.add(neig);
+                        } 
+                        else if (color[neig] == color[ele]) {
+                            return false;
+                        }
+                    }
+                }
+            }
+        }
+        return true;
+    }
+}
