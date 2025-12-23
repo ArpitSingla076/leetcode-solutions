@@ -1,0 +1,45 @@
+class Pair{
+    int diff;
+    int row;
+    int col;
+    public Pair(int diff,int row,int col) {
+        this.diff = diff;
+        this.row = row;
+        this.col = col;
+    }
+}
+
+class Solution {
+    public int minimumEffortPath(int[][] heights) {
+        int m = heights.length;
+        int n = heights[0].length;
+        PriorityQueue<Pair> pq = new PriorityQueue<>((a,b) -> a.diff - b.diff);
+        int[][] dist = new int[m][n];
+        for(int i=0;i<m;i++) {
+            Arrays.fill(dist[i],Integer.MAX_VALUE);
+        }
+        dist[0][0] = 0;
+        pq.add(new Pair(0,0,0));
+        int[] drow = {-1,0,1,0};
+        int[] dcol = {0,1,0,-1};
+        while(!pq.isEmpty()) {
+            int d = pq.peek().diff;
+            int r = pq.peek().row;
+            int c = pq.peek().col;
+            pq.poll();
+            if(r==m-1 && c==n-1) return d;
+            for(int i=0;i<4;i++) {
+                int nrow = r + drow[i];
+                int ncol = c + dcol[i];
+                if(nrow>=0 && ncol>=0 && nrow<m && ncol<n) {
+                    int newEffort = Math.max(Math.abs(heights[r][c]- heights[nrow][ncol]),d);
+                    if(newEffort < dist[nrow][ncol]) {
+                        dist[nrow][ncol] = newEffort;
+                        pq.add(new Pair(newEffort,nrow,ncol));
+                    }
+                }
+            }
+        }
+        return 0;
+    }
+}
