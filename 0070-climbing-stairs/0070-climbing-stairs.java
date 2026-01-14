@@ -1,16 +1,18 @@
 class Solution {
-    public static int count(int n, int[] ways) {
-        if(n==0)return 1;
-        if(n<0) return 0;
-        if(ways[n]!=0) {
-            return ways[n];
-        }
-        ways[n] = count(n-1,ways) + count(n-2,ways);
-        return ways[n];
-    }
     public int climbStairs(int n) {
-        int[] ways = new int[n+1];
-        int count = count(n,ways);
-        return count;
+        int dp[] = new int[n+1];
+        // initialise
+        dp[0] = 1;
+
+        // kaam
+        for(int i=1;i<=n;i++) {
+            if(i==1) {
+                dp[i] = dp[i-1];
+            }
+            else{
+                dp[i] = dp[i-1] + dp[i-2];
+            }
+        }
+        return dp[n];
     }
 }
