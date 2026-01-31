@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0078-subsets](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0078-subsets) |
 | [0198-house-robber](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0322-coin-change) |
 ## String
@@ -56,7 +57,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0078-subsets) |
 | [0191-number-of-1-bits](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0191-number-of-1-bits) |
 | [0461-hamming-distance](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0461-hamming-distance) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/2220-minimum-bit-flips-to-convert-number) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
