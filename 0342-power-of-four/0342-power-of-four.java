@@ -1,8 +1,14 @@
 class Solution {
-    public boolean isPowerOfFour(int n) {
+    boolean isPowerOfTwo(int n) {
         if(n==0) return false;
-        if(n==1) return true;
-        if(n%4!=0) return false;
-        return isPowerOfFour(n/4);  
+        return ((n&(n-1))==0);
+    }
+
+    boolean isSquare(int n) {
+        int root = (int)Math.sqrt(n);
+        return (root*root==n);
+    }
+    public boolean isPowerOfFour(int n) {
+      return isPowerOfTwo(n) && isSquare(n);  
     }
 }
