@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0322-coin-change) |
 | [0509-fibonacci-number](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
+| [0746-min-cost-climbing-stairs](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 ## Memoization
 |  |
 | ------- |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0078-subsets) |
 | [0198-house-robber](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0322-coin-change) |
+| [0746-min-cost-climbing-stairs](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 ## String
 |  |
 | ------- |
