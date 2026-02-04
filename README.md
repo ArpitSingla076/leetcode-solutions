@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0072-edit-distance) |
 | [0198-house-robber](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0198-house-robber) |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0078-subsets) |
 | [0198-house-robber](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0322-coin-change) |
@@ -86,4 +88,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0062-unique-paths) |
+## Matrix
+|  |
+| ------- |
+| [0064-minimum-path-sum](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 <!---LeetCode Topics End-->
