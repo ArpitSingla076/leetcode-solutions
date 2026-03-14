@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0342-power-of-four](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0342-power-of-four) |
@@ -32,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0064-minimum-path-sum](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0075-sort-colors) |
@@ -95,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0048-rotate-image) |
 | [0064-minimum-path-sum](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 ## Hash Table
