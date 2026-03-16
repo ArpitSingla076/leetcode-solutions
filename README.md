@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [0342-power-of-four](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0342-power-of-four) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0050-powx-n) |
 | [0342-power-of-four](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0342-power-of-four) |
 | [0509-fibonacci-number](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0509-fibonacci-number) |
 ## Combinatorics
