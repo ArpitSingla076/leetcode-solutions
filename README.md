@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0198-house-robber) |
 | [0238-product-of-array-except-self](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0322-coin-change](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0322-coin-change) |
+| [0485-max-consecutive-ones](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
 | [0746-min-cost-climbing-stairs](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 | [2965-find-missing-and-repeated-values](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/2965-find-missing-and-repeated-values) |
 ## String
