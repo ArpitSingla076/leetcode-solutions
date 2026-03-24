@@ -1,17 +1,25 @@
 class Solution {
-    public List<List<Integer>> subsets(int[] nums) {
-        int n = nums.length;
-        List<List<Integer>> ans = new ArrayList<>();
-        int subsets = (1<<n);
-        for(int i=0;i<subsets;i++) {
-            List<Integer>sub = new ArrayList<>();
-            for(int j=0;j<n;j++) {
-                if((i>>j)%2==1) {
-                    sub.add(nums[j]);
-                }
-            }
-            ans.add(sub);
+    public void helper(int[]nums,List<Integer>sub,List<List<Integer>>ans,int i) {
+        // base case
+        if(i==nums.length) {
+            ans.add(new ArrayList<>(sub));
+            return;
         }
+
+        // kaam
+        // Yes choice
+        sub.add(nums[i]);
+        helper(nums,sub,ans,i+1);
+
+        // backtrack
+        sub.remove(sub.size()-1);
+
+        // No choice
+        helper(nums,sub,ans,i+1);
+    }
+    public List<List<Integer>> subsets(int[] nums) {
+        List<List<Integer>> ans = new ArrayList<>();
+        helper(nums,new ArrayList<>(),ans,0);
         return ans;
     }
 }
