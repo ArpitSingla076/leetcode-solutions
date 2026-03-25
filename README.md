@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0322-coin-change](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0322-coin-change) |
 | [0485-max-consecutive-ones](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
+| [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0746-min-cost-climbing-stairs](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 | [0912-sort-an-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [2965-find-missing-and-repeated-values](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/2965-find-missing-and-repeated-values) |
@@ -156,12 +157,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0141-linked-list-cycle) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
+| [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 ## Sorting
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0088-merge-sorted-array) |
+| [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0912-sort-an-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0912-sort-an-array) |
 ## Greedy
 |  |
@@ -203,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0912-sort-an-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0912-sort-an-array) |
 ## Merge Sort
 |  |
@@ -220,4 +224,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0912-sort-an-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0912-sort-an-array) |
+## Binary Search
+|  |
+| ------- |
+| [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
+## Sliding Window
+|  |
+| ------- |
+| [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 <!---LeetCode Topics End-->
