@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0131-palindrome-partitioning) |
 | [0151-reverse-words-in-a-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0242-valid-anagram](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0242-valid-anagram) |
+| [0443-string-compression](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0443-string-compression) |
 | [0516-longest-palindromic-subsequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Breadth-First Search
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
+| [0443-string-compression](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0443-string-compression) |
 | [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 ## Sorting
 |  |
