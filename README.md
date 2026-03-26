@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0131-palindrome-partitioning) |
 | [0516-longest-palindromic-subsequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
+| [1910-remove-all-occurrences-of-a-substring](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0042-trapping-rain-water) |
 | [0234-palindrome-linked-list](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
+| [1910-remove-all-occurrences-of-a-substring](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Tree
 |  |
 | ------- |
@@ -258,4 +260,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+## Simulation
+|  |
+| ------- |
+| [1910-remove-all-occurrences-of-a-substring](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1910-remove-all-occurrences-of-a-substring) |
 <!---LeetCode Topics End-->
