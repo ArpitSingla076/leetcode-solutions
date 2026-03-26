@@ -1,12 +1,13 @@
 class Solution {
     public boolean isPalin(String a) {
         StringBuilder sb = new StringBuilder(a);
-        sb.reverse();
-        String res = sb.toString();
-        if(res.equals(a)) {
-            return true;
-        }
-        return false;
+        // sb.reverse();
+        // String res = sb.toString();
+        // if(res.equals(a)) {
+        //     return true;
+        // }
+        // return false;
+        return sb.reverse().toString().equals(a);
     }
     
     public boolean isPalindrome(String s) {
