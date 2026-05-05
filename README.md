@@ -110,17 +110,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0100-same-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0102-binary-tree-level-order-traversal) |
+| [0110-balanced-binary-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0100-same-tree) |
+| [0110-balanced-binary-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0102-binary-tree-level-order-traversal) |
+| [0110-balanced-binary-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1161-maximum-level-sum-of-a-binary-tree) |
 ## Divide and Conquer
 |  |
