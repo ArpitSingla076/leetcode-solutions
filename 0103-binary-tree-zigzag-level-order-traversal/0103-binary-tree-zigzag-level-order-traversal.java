@@ -24,15 +24,13 @@ class Solution {
             List<Integer> sub = new ArrayList<>();
             for(int i=0;i<size;i++) {
                 TreeNode curr = q.poll();
-                if(level%2==0) {
-                    sub.add(curr.val);
-                    Collections.reverse(sub);
-                }
-                else{
-                    sub.add(curr.val);
-                }
+                 sub.add(curr.val);
+                
                 if(curr.left!=null)q.add(curr.left);
                 if(curr.right!=null)q.add(curr.right);
+            }
+            if(level%2==0) {
+                Collections.reverse(sub);
             }
             level++;
             ans.add(sub);
