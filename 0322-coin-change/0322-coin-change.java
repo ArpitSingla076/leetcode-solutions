@@ -1,30 +1,29 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
-        int dp[][] = new int[n+1][amount+1];
-        int INF = (int)1e9;
+        int[][] dp = new int[n+1][amount+1];
+        int inf = (int)1e9;
 
-        // initialization
+        // initialsation
         for(int i=0;i<n+1;i++) {
-            dp[i][0] = 0;   //  0 coins needed to make sum 0
+            dp[i][0] = 0;
         }
 
         for(int j=1;j<amount+1;j++) {
-            dp[0][j] = INF; //  impossible using 0 coins
+            dp[0][j] = inf;
         }
 
         // code
-        for(int i=1; i<n+1; i++) {
-            for(int j=1; j<amount+1; j++) {
-                if(coins[i-1]<=j) { // valid
-                    // add +1 when taking a coin
-                    dp[i][j] = Math.min(1 + dp[i][j-coins[i-1]],dp[i-1][j]);                    
-                } 
-                else { 
+        for(int i=1;i<n+1;i++) {
+            for(int j=1;j<amount+1;j++) {
+                if(coins[i-1]<=j) {
+                    dp[i][j] = Math.min(1+dp[i][j-coins[i-1]],dp[i-1][j]);
+                }
+                else{
                     dp[i][j] = dp[i-1][j];
                 }
             }
         }
-        return dp[n][amount] >= INF ? -1 : dp[n][amount];
+        return dp[n][amount]>=inf? -1:dp[n][amount];
     }
 }
