@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0198-house-robber](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0213-house-robber-ii) |
 | [0238-product-of-array-except-self](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0238-product-of-array-except-self) |
 | [0300-longest-increasing-subsequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0300-longest-increasing-subsequence) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0322-coin-change](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0322-coin-change) |
 | [0547-number-of-provinces](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0841-keys-and-rooms](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0841-keys-and-rooms) |
@@ -137,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0101-symmetric-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0101-symmetric-tree) |
 | [0110-balanced-binary-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0110-balanced-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0543-diameter-of-binary-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0547-number-of-provinces](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0841-keys-and-rooms](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0841-keys-and-rooms) |
@@ -199,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
+| [0200-number-of-islands](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [2965-find-missing-and-repeated-values](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/2965-find-missing-and-repeated-values) |
 ## Hash Table
 |  |
@@ -267,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 ## Linked List
