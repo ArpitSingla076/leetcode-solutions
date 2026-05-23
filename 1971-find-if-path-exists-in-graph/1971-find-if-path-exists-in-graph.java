@@ -1,18 +1,28 @@
 class Solution {
-    public void bfs(List<List<Integer>> adj,boolean[] vis,int i) {
+    // public void bfs(List<List<Integer>> adj,boolean[] vis,int i) {
+    //     vis[i] = true;
+    //     Queue<Integer> q = new LinkedList<>();
+    //     q.add(i);
+    //     while(q.size()>0) {
+    //         int curr = q.poll();
+    //         for(int neig : adj.get(curr)) {
+    //             if(!vis[neig]) {
+    //                 q.add(neig);
+    //                 vis[neig] = true;
+    //             }
+    //         }
+    //     }
+    // }
+
+    public void dfs(List<List<Integer>> adj,boolean[] vis,int i) {
         vis[i] = true;
-        Queue<Integer> q = new LinkedList<>();
-        q.add(i);
-        while(q.size()>0) {
-            int curr = q.poll();
-            for(int neig : adj.get(curr)) {
-                if(!vis[neig]) {
-                    q.add(neig);
-                    vis[neig] = true;
-                }
+        for(int neig : adj.get(i)) {
+            if(!vis[neig]) {
+                dfs(adj,vis,neig);
             }
         }
     }
+
     public boolean validPath(int n, int[][] edges, int start, int end) {
         if(start==end) return true;
         List<List<Integer>> adj = new ArrayList<>();
@@ -30,7 +40,8 @@ class Solution {
         }
 
         boolean[] vis = new boolean[n];
-        bfs(adj,vis,start);
+       // bfs(adj,vis,start);
+       dfs(adj,vis,start);
         return vis[end];
     }
 }
