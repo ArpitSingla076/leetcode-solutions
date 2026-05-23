@@ -1,57 +1,74 @@
-class Pair{
-    int row;
-    int col;
-    public Pair(int row,int col) {
-        this.row = row;
-        this.col = col;
-    }
-}
+// class Pair{
+//     int row;
+//     int col;
+//     public Pair(int row,int col) {
+//         this.row = row;
+//         this.col = col;
+//     }
+// }
 
 class Solution {
-    public void bfs(int i,int j,char[][]grid,boolean[][]vis) {
+    // public void bfs(int i,int j,char[][]grid,boolean[][]vis) {
+    //     int m = grid.length;
+    //     int n = grid[0].length;
+    //     Queue<Pair> q = new LinkedList<>();
+    //     q.add(new Pair(i,j));
+    //     while(q.size()>0) {
+    //         Pair curr = q.poll();
+    //         int row = curr.row;
+    //         int col = curr.col;
+
+    //         // top -> row-1,col
+    //         if(row>0) {
+    //             if(vis[row-1][col]==false && grid[row-1][col]=='1') {
+    //                 q.add(new Pair(row-1,col));
+    //                 vis[row-1][col] = true;
+    //             }
+    //         }
+
+    //         // bottom -> row+1,col
+    //         if(row+1<m) {
+    //             if(vis[row+1][col]==false && grid[row+1][col]=='1') {
+    //                 q.add(new Pair(row+1,col));
+    //                 vis[row+1][col] = true;
+    //             }
+    //         }
+
+    //         // left -> row,col-1
+    //         if(col>0) {
+    //             if(vis[row][col-1]==false && grid[row][col-1]=='1') {
+    //                 q.add(new Pair(row,col-1));
+    //                 vis[row][col-1] = true;
+    //             }
+    //         }
+
+    //         // right -> row,col+1
+    //         if(col+1<n) {
+    //             if(vis[row][col+1]==false && grid[row][col+1]=='1') {
+    //                 q.add(new Pair(row,col+1));
+    //                 vis[row][col+1] = true;
+    //             }
+    //         }
+    //     }
+    // }
+
+    public void dfs(int i,int j,char[][]grid,boolean[][]vis) {
         int m = grid.length;
         int n = grid[0].length;
-        Queue<Pair> q = new LinkedList<>();
-        q.add(new Pair(i,j));
-        while(q.size()>0) {
-            Pair curr = q.poll();
-            int row = curr.row;
-            int col = curr.col;
 
-            // top -> row-1,col
-            if(row>0) {
-                if(vis[row-1][col]==false && grid[row-1][col]=='1') {
-                    q.add(new Pair(row-1,col));
-                    vis[row-1][col] = true;
-                }
-            }
+        // boundary cond
+        if(i<0 || j<0 || i>=m || j>=n) return;
 
-            // bottom -> row+1,col
-            if(row+1<m) {
-                if(vis[row+1][col]==false && grid[row+1][col]=='1') {
-                    q.add(new Pair(row+1,col));
-                    vis[row+1][col] = true;
-                }
-            }
+        // water or already vis
+        if(grid[i][j]=='0' || vis[i][j]==true) return;
 
-            // left -> row,col-1
-            if(col>0) {
-                if(vis[row][col-1]==false && grid[row][col-1]=='1') {
-                    q.add(new Pair(row,col-1));
-                    vis[row][col-1] = true;
-                }
-            }
-
-            // right -> row,col+1
-            if(col+1<n) {
-                if(vis[row][col+1]==false && grid[row][col+1]=='1') {
-                    q.add(new Pair(row,col+1));
-                    vis[row][col+1] = true;
-                }
-            }
-        }
+        vis[i][j] = true;
+        dfs(i-1,j,grid,vis);
+        dfs(i+1,j,grid,vis);
+        dfs(i,j-1,grid,vis);
+        dfs(i,j+1,grid,vis);
     }
-
+ 
     public int numIslands(char[][] grid) {
         int m = grid.length;
         int n = grid[0].length;
@@ -60,7 +77,8 @@ class Solution {
         for(int i=0;i<m;i++) {
             for(int j=0;j<n;j++) {
                 if(grid[i][j]=='1' && vis[i][j]==false) {
-                    bfs(i,j,grid,vis);
+                    // bfs(i,j,grid,vis);
+                    dfs(i,j,grid,vis);
                     count++;
                 }
             }
