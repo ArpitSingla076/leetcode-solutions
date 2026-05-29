@@ -1,18 +1,18 @@
 class Solution {
     public int change(int amount, int[] coins) {
         int n = coins.length;
+
         int[][] dp = new int[n+1][amount+1];
 
-          // initialsation
+        // initilisation
         for(int i=0;i<n+1;i++) {
             dp[i][0] = 1;
         }
-
         for(int j=1;j<amount+1;j++) {
             dp[0][j] = 0;
         }
 
-        // code
+        // kaam
         for(int i=1;i<n+1;i++) {
             for(int j=1;j<amount+1;j++) {
                 if(coins[i-1]<=j) {
