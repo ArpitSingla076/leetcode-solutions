@@ -4,16 +4,15 @@ class Solution {
         int[][] dp = new int[n+1][amount+1];
         int inf = (int)1e9;
 
-        // initialsation
+        // initilisation
         for(int i=0;i<n+1;i++) {
             dp[i][0] = 0;
         }
-
         for(int j=1;j<amount+1;j++) {
             dp[0][j] = inf;
         }
 
-        // code
+        // kaam
         for(int i=1;i<n+1;i++) {
             for(int j=1;j<amount+1;j++) {
                 if(coins[i-1]<=j) {
@@ -24,6 +23,6 @@ class Solution {
                 }
             }
         }
-        return dp[n][amount]>=inf? -1:dp[n][amount];
+        return dp[n][amount]>=inf?-1:dp[n][amount];
     }
 }
