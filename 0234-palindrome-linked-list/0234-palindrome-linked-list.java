@@ -23,18 +23,16 @@ class Solution {
     }
 
     public boolean isPalindrome(ListNode head) {
-        // Hint : middle of LL and reverse LL
-        if(head==null || head.next==null) return true;
         ListNode slow = head;
         ListNode fast = head;
+
         while(fast.next!=null && fast.next.next!=null) {
             slow = slow.next;
             fast = fast.next.next;
         }
-        ListNode mid = slow;
         ListNode rev = reverse(slow.next);
-        ListNode temp2 = rev;
         ListNode temp = head;
+        ListNode temp2 = rev;
         while(temp2!=null) {
             if(temp.val!=temp2.val) return false;
             temp = temp.next;
