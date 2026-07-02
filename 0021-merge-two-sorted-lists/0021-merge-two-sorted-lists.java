@@ -15,7 +15,7 @@ class Solution {
         ListNode result = new ListNode(-1);
         ListNode temp3 = result;
         while(temp1!=null && temp2!=null) {
-            if(temp1.val<temp2.val) {
+            if(temp1.val<temp2.val){
                 temp3.next = temp1;
                 temp1 = temp1.next;
                 temp3 = temp3.next;
@@ -36,6 +36,6 @@ class Solution {
             temp2 = temp2.next;
             temp3 = temp3.next;
         }
-    return result.next;
+        return result.next;
     }
 }
