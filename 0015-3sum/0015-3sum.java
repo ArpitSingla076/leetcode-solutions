@@ -37,6 +37,8 @@ class Solution {
                 k--;
             }
             else{
+              //  ans.add(Arrays.asList(nums[i],nums[j],nums[k]));
+              // ++++ OR +++
                 List<Integer> sub = new ArrayList<>();
                 sub.add(nums[i]);
                 sub.add(nums[j]);
