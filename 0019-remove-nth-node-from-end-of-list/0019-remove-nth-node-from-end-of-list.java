@@ -12,8 +12,7 @@ class Solution {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode slow = head;
         ListNode fast = head;
-
-        for(int i=1;i<=n;i++) {
+        for(int i=0;i<n;i++) {
             fast = fast.next;
         }
         if(fast==null) return head.next; // When n == length of the linked list(means head node)
