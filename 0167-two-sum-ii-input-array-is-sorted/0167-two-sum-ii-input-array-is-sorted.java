@@ -4,17 +4,17 @@ class Solution {
         int i=0;
         int j=n-1;
         while(i<j) {
-            int sum = nums[i] + nums[j];
-            if(sum<target) {
-                i++;
-            }
-            else if(sum>target) {
+            int sum = nums[i]+nums[j];
+            if(sum>target) {
                 j--;
+            }
+            else if(sum<target) {
+                i++;
             }
             else{
                 return new int[]{i+1,j+1};
             }
         }
-        return new int[]{0,0};
+        return new int[]{-1,-1};
     }
 }
