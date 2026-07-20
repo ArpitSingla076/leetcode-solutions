@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0070-climbing-stairs) |
+| [0189-rotate-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0189-rotate-array) |
 | [0342-power-of-four](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0342-power-of-four) |
 | [0371-sum-of-two-integers](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0371-sum-of-two-integers) |
 | [0509-fibonacci-number](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0509-fibonacci-number) |
@@ -78,6 +79,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0169-majority-element) |
+| [0189-rotate-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0213-house-robber-ii) |
@@ -299,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0160-intersection-of-two-linked-lists](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0189-rotate-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0283-move-zeroes) |
 | [0287-find-the-duplicate-number](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0287-find-the-duplicate-number) |
