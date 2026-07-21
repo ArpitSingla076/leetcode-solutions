@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1046-last-stone-weight](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1046-last-stone-weight) |
 | [1094-car-pooling](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1094-car-pooling) |
 | [1207-unique-number-of-occurrences](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1207-unique-number-of-occurrences) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
 | [0200-number-of-islands](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0200-number-of-islands) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [2965-find-missing-and-repeated-values](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/2965-find-missing-and-repeated-values) |
 ## Hash Table
 |  |
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [1004-max-consecutive-ones-iii](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 ## Sliding Window
 |  |
 | ------- |
