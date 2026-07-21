@@ -14,14 +14,15 @@
  * }
  */
 class Solution {
-    public TreeNode helper(int[]preorder,int prelow,int prehigh,int[]inorder,int inlow,int inhigh) {    
-        if(prelow>prehigh) return null;
-        TreeNode root = new TreeNode(preorder[prelow]);
-        int i = inlow;
-        while(inorder[i]!=preorder[prelow]) i++;
-        int leftsize = i-inlow;
-        root.left = helper(preorder,prelow+1,prelow+leftsize,inorder,inlow,i-1);
-        root.right = helper(preorder,prelow+leftsize+1,prehigh,inorder,i+1,inhigh);
+    public TreeNode helper(int[]preorder,int pl,int ph,int[]inorder,int il,int ih) {
+        if(pl>ph) return null;
+        TreeNode root = new TreeNode(preorder[pl]);
+        int i=il;
+        while(preorder[pl]!=inorder[i]) i++;
+        int leftsize = i-il;
+        
+        root.left = helper(preorder,pl+1,pl+leftsize,inorder,il,i-1);
+        root.right = helper(preorder,pl+leftsize+1,ph,inorder,i+1,ih);
         return root;
     }
 
