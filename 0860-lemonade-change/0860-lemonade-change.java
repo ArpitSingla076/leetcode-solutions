@@ -19,9 +19,9 @@ class Solution {
             }
             else{
                 if(five>0 && ten>0) {
+                    twenty++;
                     five--;
                     ten--;
-                    twenty++;
                 }
                 else if(five>=3) {
                     five-=3;
