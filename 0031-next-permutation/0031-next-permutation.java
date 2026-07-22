@@ -7,9 +7,9 @@ class Solution {
 
     public void nextPermutation(int[] nums) {
         int n = nums.length;
-        int pivot = -1;
+        int pivot=-1;
 
-        // find the pivot
+        // finding pivot ele
         for(int i=n-2;i>=0;i--) {
             if(nums[i]<nums[i+1]) {
                 pivot = i;
@@ -17,24 +17,34 @@ class Solution {
             }
         }
 
-        if(pivot==-1) {
-            Arrays.sort(nums);
-            return;
-        } 
+        // if(pivot==-1) {
+        //     Arrays.sort(nums);
+        //     return;
+        // }
 
-        // find rightmost ele > pivot
+        if(pivot==-1) {
+            int i=0;
+            int j=n-1;
+            while(i<j) {
+                swap(nums,i,j);
+                i++;
+                j--;
+            }
+            return;
+        }
+
+        // find rightmost ele > pivot and swap them
         for(int i=n-1;i>pivot;i--) {
             if(nums[i]>nums[pivot]) {
-                // swap them
                 swap(nums,i,pivot);
                 break;
             }
         }
 
-        // reverse pivot+1 to n-1
+        // reverse pivot+1 to n-1;
         int i=pivot+1;
         int j=n-1;
-        while(i<=j) {
+        while(i<j) {
             swap(nums,i,j);
             i++;
             j--;
