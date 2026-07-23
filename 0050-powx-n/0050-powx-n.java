@@ -1,17 +1,20 @@
 class Solution {
     public double myPow(double x, int n) {
-        long binForm = n;
-        if(n<0) {
+        long N = n;
+        if(N<0) {
             x=1/x;
-            binForm = -binForm;
+            N=-N;
         }
         double ans=1;
-        while(binForm>0) {
-            if(binForm%2==1) {
-                ans = ans * x;
+        while(N>0) {
+            if(N%2==1) { // odd
+                ans = ans*x;
+                N=N-1;
             }
-            x*=x;
-            binForm/=2;
+            else{ // even
+                N=N/2;
+                x=x*x;
+            }
         }
         return ans;
     }
