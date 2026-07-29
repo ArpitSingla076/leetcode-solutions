@@ -1,48 +1,21 @@
-// --- Brute Force (Nested Loop) ---
-// class Solution {
-//     public int longestOnes(int[] nums, int k) {
-//         int n = nums.length;
-//         int left = 0;
-//         int maxlen = 0;
-//         for(int i=0;i<n;i++) {
-//             int zeros = 0;
-//             for(int j=i;j<n;j++) {
-//                 if(nums[j]==0) {
-//                     zeros++;
-//                 }
-//                 if(zeros<=k) {
-//                     maxlen = Math.max(maxlen,j-i+1);
-//                 }
-//                 else{
-//                     break;
-//                 }
-//             }
-//         }
-//         return maxlen;
-//     }
-// }
-
-
-// --- Optimal App(using sliding window) ---
 class Solution {
     public int longestOnes(int[] nums, int k) {
         int n = nums.length;
-        int left = 0;
-        int zeroCount = 0;
-        int maxlen = 0;
-        for(int right=0;right<n;right++) {
-            if(nums[right]==0) {
-                zeroCount++;
+        int l=0;
+        int r=0;
+        int maxlen=0;
+        int cntzeros=0;
+        for(r=0;r<n;r++) {
+            if(nums[r]==0) {
+                cntzeros++;
             }
-
-            // if zeros exceed K then shrink
-            while(zeroCount>k) {
-                if(nums[left]==0) {
-                    zeroCount--;
+            while(cntzeros>k) {
+                if(nums[l]==0) {
+                    cntzeros--;
                 }
-                left++;
+                l++;
             }
-            maxlen = Math.max(maxlen,right-left+1);
+            maxlen = Math.max(maxlen,r-l+1);
         }
         return maxlen;
     }
