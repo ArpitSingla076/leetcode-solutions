@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0443-string-compression](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0443-string-compression) |
 | [0451-sort-characters-by-frequency](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
 | [0516-longest-palindromic-subsequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0516-longest-palindromic-subsequence) |
+| [0567-permutation-in-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0796-rotate-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0796-rotate-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -341,6 +342,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0451-sort-characters-by-frequency](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
 | [0496-next-greater-element-i](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [1207-unique-number-of-occurrences](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1207-unique-number-of-occurrences) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -375,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0443-string-compression](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0443-string-compression) |
 | [0455-assign-cookies](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0455-assign-cookies) |
+| [0567-permutation-in-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
@@ -519,6 +522,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0209-minimum-size-subarray-sum) |
+| [0567-permutation-in-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0904-fruit-into-baskets](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [1004-max-consecutive-ones-iii](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
