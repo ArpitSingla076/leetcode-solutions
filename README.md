@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0746-min-cost-climbing-stairs](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1137-n-th-tribonacci-number) |
 | [1143-longest-common-subsequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Memoization
 |  |
 | ------- |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0796-rotate-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0796-rotate-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1143-longest-common-subsequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
+| [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Breadth-First Search
