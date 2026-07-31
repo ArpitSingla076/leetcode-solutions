@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0646-maximum-length-of-pair-chain) |
 | [0746-min-cost-climbing-stairs](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0746-min-cost-climbing-stairs) |
 | [1137-n-th-tribonacci-number](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1137-n-th-tribonacci-number) |
+| [1143-longest-common-subsequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 ## Memoization
 |  |
 | ------- |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0796-rotate-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0796-rotate-string) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0921-minimum-add-to-make-parentheses-valid) |
+| [1143-longest-common-subsequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1143-longest-common-subsequence) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1910-remove-all-occurrences-of-a-substring](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1910-remove-all-occurrences-of-a-substring) |
 ## Breadth-First Search
