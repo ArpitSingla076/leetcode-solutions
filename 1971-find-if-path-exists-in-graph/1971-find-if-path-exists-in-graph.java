@@ -1,4 +1,13 @@
 class Solution {
+    // public void dfs(List<List<Integer>> adj,boolean[] vis,int src) {
+    //     vis[src] = true;
+    //     for(int neig : adj.get(src)) {
+    //         if(!vis[neig]) {
+    //             dfs(adj,vis,neig);
+    //         }
+    //     }
+    // }
+
     public void bfs(List<List<Integer>> adj,boolean[] vis,int src) {
         int n = adj.size();
         Queue<Integer>q = new LinkedList<>();
@@ -14,6 +23,7 @@ class Solution {
             }
         }
     }
+
     public boolean validPath(int n, int[][] edges, int src, int dest) {
         if(src==dest) return true;
         List<List<Integer>> adj = new ArrayList<>();
@@ -28,6 +38,7 @@ class Solution {
         }
         boolean[] vis = new boolean[n];
         bfs(adj,vis,src);
+       //dfs(adj,vis,src);
         return vis[dest];
     }
 }
