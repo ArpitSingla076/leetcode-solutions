@@ -1,18 +1,16 @@
 class Solution {
-    public boolean bfs(int[][]adj,int[]vis,int i) {
+    public boolean isbip(int[][]adj,int[] vis,int node) {
         Queue<Integer> q = new LinkedList<>();
-        q.add(i);
-        vis[i] = 0;
+        q.add(node);
+        vis[node] = 0;
         while(q.size()>0) {
             int curr = q.poll();
-            int currColor = vis[curr];
-            for(int neig : adj[curr]) {
-                if(vis[neig]==vis[curr]) {
-                    return false;
-                }
-                if(vis[neig]==-1) {
-                    vis[neig] = 1-currColor;
+            int currcol = vis[curr];
+            for(int neig: adj[curr]) {
+                if(vis[neig]==vis[curr]) return false; 
+                if(vis[neig]==-1 && vis[neig]!=currcol) {
                     q.add(neig);
+                    vis[neig] = 1-currcol;
                 }
             }
         }
@@ -25,7 +23,7 @@ class Solution {
         Arrays.fill(vis,-1);
         for(int i=0;i<n;i++) {
             if(vis[i]==-1) {
-                if(!bfs(adj,vis,i)) {
+                if(!isbip(adj,vis,i)) {
                     return false;
                 }
             }
