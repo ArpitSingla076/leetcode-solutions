@@ -14,15 +14,19 @@ class Solution {
         boolean[][] vis = new boolean[m][n];
         Queue<Pair>q = new LinkedList<>();
         int currcol = image[sr][sc];
+        // edge case
+        if(currcol==color) return image;
+
         image[sr][sc] = color;
         q.add(new Pair(sr,sc));
         vis[sr][sc] = true;
+
+        int[] drow = {-1,0,1,0};
+        int[] dcol = {0,1,0,-1};
         while(q.size()>0) {
             Pair curr = q.poll();
             int r = curr.row;
             int c = curr.col;
-            int[] drow = {-1,0,1,0};
-            int[] dcol = {0,1,0,-1};
             for(int k=0;k<4;k++) {
                 int nrow = r + drow[k];
                 int ncol = c + dcol[k];
