@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0128-longest-consecutive-sequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0164-maximum-gap](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0164-maximum-gap) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0169-majority-element) |
@@ -170,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0112-path-sum) |
+| [0130-surrounded-regions](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0199-binary-tree-right-side-view](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0207-course-schedule) |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0112-path-sum](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0113-path-sum-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0130-surrounded-regions](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0199-binary-tree-right-side-view) |
@@ -332,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0073-set-matrix-zeroes) |
+| [0130-surrounded-regions](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0733-flood-fill](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0733-flood-fill) |
 | [0867-transpose-matrix](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0867-transpose-matrix) |
@@ -452,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0128-longest-consecutive-sequence) |
+| [0130-surrounded-regions](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
