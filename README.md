@@ -133,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [1480-running-sum-of-1d-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1480-running-sum-of-1d-array) |
+| [1514-path-with-maximum-probability](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 | [1572-matrix-diagonal-sum](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1572-matrix-diagonal-sum) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
@@ -516,6 +517,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [1046-last-stone-weight](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1046-last-stone-weight) |
 | [1094-car-pooling](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1094-car-pooling) |
+| [1514-path-with-maximum-probability](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 ## Merge Sort
 |  |
 | ------- |
@@ -599,6 +601,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0785-is-graph-bipartite](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0841-keys-and-rooms) |
+| [1514-path-with-maximum-probability](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 | [1971-find-if-path-exists-in-graph](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1971-find-if-path-exists-in-graph) |
 ## String Matching
 |  |
@@ -646,8 +649,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0743-network-delay-time) |
+| [1514-path-with-maximum-probability](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 ## Dijkstra's Algorithm
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0743-network-delay-time) |
+| [1514-path-with-maximum-probability](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1514-path-with-maximum-probability) |
 <!---LeetCode Topics End-->
