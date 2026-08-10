@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0912-sort-an-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0974-subarray-sums-divisible-by-k) |
+| [0977-squares-of-a-sorted-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [0994-rotting-oranges](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1020-number-of-enclaves](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1020-number-of-enclaves) |
@@ -426,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0455-assign-cookies) |
 | [0567-permutation-in-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
+| [0977-squares-of-a-sorted-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Sorting
 |  |
@@ -452,6 +454,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0912-sort-an-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0912-sort-an-array) |
 | [0973-k-closest-points-to-origin](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
+| [0977-squares-of-a-sorted-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
 | [1094-car-pooling](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1094-car-pooling) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
 ## Greedy
