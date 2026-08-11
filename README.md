@@ -130,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0973-k-closest-points-to-origin) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0977-squares-of-a-sorted-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0977-squares-of-a-sorted-array) |
+| [0992-subarrays-with-k-different-integers](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
 | [0994-rotting-oranges](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0994-rotting-oranges) |
 | [1004-max-consecutive-ones-iii](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1020-number-of-enclaves](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1020-number-of-enclaves) |
@@ -392,6 +393,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0567-permutation-in-string) |
 | [0904-fruit-into-baskets](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0974-subarray-sums-divisible-by-k) |
+| [0992-subarrays-with-k-different-integers](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
 | [1207-unique-number-of-occurrences](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1207-unique-number-of-occurrences) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1636-sort-array-by-increasing-frequency](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1636-sort-array-by-increasing-frequency) |
@@ -567,6 +569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0387-first-unique-character-in-a-string](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0451-sort-characters-by-frequency) |
 | [0912-sort-an-array](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0912-sort-an-array) |
+| [0992-subarrays-with-k-different-integers](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 ## Binary Search
 |  |
@@ -592,6 +595,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0904-fruit-into-baskets) |
+| [0992-subarrays-with-k-different-integers](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1004-max-consecutive-ones-iii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ArpitSingla076/leetcode-solutions/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
