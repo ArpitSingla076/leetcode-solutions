@@ -23,13 +23,18 @@ class Solution {
         Pair prev = null;
         while(maxheap.size()>0) {
             Pair curr = maxheap.poll();
+            // Put current character in answer
             ans.append(curr.ch);
+            // Current character is used once
             curr.freq--;
+            // Now previous character can come back
             if(prev!=null && prev.freq>0) {
                 maxheap.add(prev);
             }
+            // Current becomes previous
             prev = curr;
         }
+
         // Couldn't use all characters
         if(ans.length() != s.length()) {
             return "";
